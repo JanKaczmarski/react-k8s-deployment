@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Source') {
             steps{
-                git 'https://github.com/JanKaczmarski/jenkins-k8s-deployment'
+                git 'https://github.com/JanKaczmarski/react-k8s-deployment'
             }
         }
 
