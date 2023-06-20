@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/JanKaczmarski/react-k8s-deployment.git'
+        git branch: 'main', url: 'https://github.com/JanKaczmarski/react-k8s-deployment.git'
       }
     }
     stage('Build image') {
